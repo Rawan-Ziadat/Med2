@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="מה יש למטופל שלי"
+        app:showAsAction="never">
+    <menu>
+        <item
+            android:id="@+id/nxav_share"
+            android:icon="@drawable/ic_menu_send"
+            android:title="1" />
+        <item
+            android:id="@+id/na3sv_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="2" />
+        <item
+            android:id="@+id/nas4v_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="3" />
+        <item
+            android:id="@+id/nasv4_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="4" />
+        <item
+            android:id="@+id/nasv_se4nd"
+            android:icon="@drawable/ic_menu_send"
+            android:title="5" />
+    </menu>
+    </item>
+</menu>

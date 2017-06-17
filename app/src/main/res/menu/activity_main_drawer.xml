@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="חום סימסטי">
+        <menu>
+
+        <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/me"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="עד 38" />
+                <item
+                    android:id="@+id/me2"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="מעל 38" />
+        </group>
+        </menu>
+
+    </item>
+    <item android:title="חום מיקומי">
+        <item android:title="כאב">
+            <menu>
+
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/navכד_share"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="לוחץ" />
+                    <item
+                        android:id="@+id/naסvכ_send"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="דוקר" />
+                    <item
+                        android:id="@+id/naדסvכ_send"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="שורף" />
+                    <item
+                        android:id="@+id/nבaדסvכ_send"
+                        android:icon="@drawable/ic_menu_send"
+                        android:title="אחר" />
+                </group>
+            </menu>
+
+        </item>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_send"
+            android:title="נפיחות" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_send"
+            android:title="אודם" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_send"
+            android:title="סחרחורת" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_send"
+            android:title="רגישות למגע" />
+
+        <item
+            android:id="@+id/nav_הmanage"
+            android:icon="@drawable/ic_menu_send"
+            android:title="בצקת" />
+        <item
+            android:id="@+id/navה_manage"
+            android:icon="@drawable/ic_menu_send"
+            android:title="קוצר נשימה" />
+    </group>
+
+    <!--item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item-->
+
+</menu>
